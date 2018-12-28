@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Percentage Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Righteous" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body style="background-color:#b3c6ff;">
+	<div class="container">
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="col-4">
+				<div class="percentagearea">
+									
+					<h1>Percentage Calculator</h1>
+					<h3>Select Option:</h3>
+				
+						<select id="changequestion" onchange="activatechangequestion()">
+							<option value="1" selected>Select Problem</option>
+							<option value="1" >What is Y% of X?</option>
+							<option value="2">X is Y% of what?</option>
+							<option value="3">What % of X is Y?</option>
+							<option value="4">X% of what is Y?</option>
+							<option value="5">Y% of X is what?</option>
+						</select>
+						
+						<h3 id="question title"></h3>
+						
+						<form id="question1">
+							<input type="text" name="" placeholder="Y" id="y"> <input type="text" name="" placeholder="X"  id="x">  
+							<input type="submit" name="" value="Submit" class="calculate">
+							<h3 class="result" id="percentageresult"></h3>
+
+						</form>
+
+						<!-- <form id="question2" >
+							<input type="text" name="" placeholder="X" id="x2"> is <input type="text" name="" placeholder="Y" id="y2"> % of what?  
+							<input type="submit" name="" value="Submit" class="calculate">
+							<h3 class="result" id="percentageresult"></h3>
+						</form>
+
+						<form id="question3" >
+							What % of <input type="text" name="" placeholder="X" id="x"> is <input type="text" name="" placeholder="Y" id="y"> 
+							<input type="submit" name="" value="Submit" class="calculate">
+							<h3 class="result" id="percentageresult"></h3>
+						</form>
+
+						<form id="question4" >
+							<input type="text" name="" placeholder="X" id="x">% of what  is <input type="text" name="" placeholder="Y" id="y">? 
+							<input type="submit" name="" value="Submit" class="calculate">
+							<h3 class="result" id="percentageresult"></h3>
+						</form>
+
+						<form id="question5" >
+							<input type="text" name="" placeholder="Y" id="y">% of  <input type="text" name="" placeholder="X" id="x"> is what?  
+							<input type="submit" name="" value="Submit" class="calculate">
+							<h3 class="result" id="percentageresult"></h3>
+						</form> -->
+	
+					
+				</div>		
+			</div>
+			<div class="col-4"></div>
+		</div>
+		
+	</div>
+	
+	
+
+
+	<script type="text/javascript" src="js/calc.js"></script>
+
+</body>
+</html>
